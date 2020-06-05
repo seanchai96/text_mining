@@ -9,7 +9,7 @@ import pandas as pd, numpy as np
 
 stop_list = stopwords.words('english')
 # file_dir = '/Users/soonhangchye/Desktop/text_mining_project/flask_backend/models/classification_logreg.pkl'
-file_dir = '/Users/yuankanglee/Google Drive/SMU/Year 3/Sem-2/IS450-Text Mining and Language Processing/Project/github/flask_backend/models/classification_logreg.pkl'
+file_dir = '/Users/Sean/Documents/GitHub/text_mining/flask_backend/models/classification_logreg.pkl'
 
 with open(file_dir, 'rb') as file:
     logistic = pickle.load(file)[0]
